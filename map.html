@@ -20,7 +20,7 @@
    
     </style>
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsu-SJFQLeuYfli-tVl2GCDf2KXSkxbKY&sensor=false&language=en"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=[googlemap api key]&sensor=false&language=en"></script>
 <link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.min.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
@@ -299,7 +299,7 @@ function eki(){
 	var enstop = encodeURIComponent(stopprefecture+stopstation);
 	  
 	var Node=document.getElementById("dialogmap");
-    Node.innerHTML="<iframe src=\'https://maps.google.co.jp/maps?f=d&amp;source=s_d&amp;saddr="+enstart+"&amp;daddr="+enstop+"&amp;hl=ja&amp;geocode=&amp;aq=0&amp;oq=&amp;sll=34.723202,135.269836&amp;sspn=0.011446,0.019698&amp;brcurrent=3,0x60008ce317deac45:0xc79d8194a98c20e1,0&amp;ttype=now&amp;noexp=0&amp;noal=0&amp;sort=def&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;start=0&amp;ll=34.723202,135.269836&amp;spn=0.007064,0.014937&amp;output=embed\' width=\'"+1000+"\' height=\'"+1000+"\' frameborder=\'0\' style=\'border:0\'></iframe>";		
+    Node.innerHTML="<iframe src=\'https://maps.google.co.jp/maps?f=d&amp;source=s_d&amp;saddr="+enstart+"&amp;daddr="+enstop+"&amp;hl=ja&amp;geocode=&amp;aq=0&amp;oq=&amp;sll=[中心座標]&amp;sspn=0.011446,0.019698&amp;brcurrent=3,0x60008ce317deac45:0xc79d8194a98c20e1,0&amp;ttype=now&amp;noexp=0&amp;noal=0&amp;sort=def&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;start=0&amp;ll=[エラー時に表示させる中心座標]&amp;spn=0.007064,0.014937&amp;output=embed\' width=\'"+1000+"\' height=\'"+1000+"\' frameborder=\'0\' style=\'border:0\'></iframe>";		
 }
 
 
